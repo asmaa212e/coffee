@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+ 
+    
+   
+    
+}
+/* Start home*/
+.head {
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+/* Start navbar*/
+.nav {
+    height: 15%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(158, 98, 19)  ;
+    text-transform: capitalize;
+}
+.logo a:hover {
+    color:rgb(179, 121, 45);
+    
+}
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+    align-items: center;
+}
+.nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(158, 98, 19) ;
+    font-weight: 500;
+    transition: all .3s ease;
+
+}
+.nav ul li a:hover {
+    color:rgb(179, 121, 45);
+}
+/* End navbar*/
+ /* Start main*/
+.main {
+    height: 85vh;
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+
+}
+
+.main .text {
+    margin-bottom: 1rem;
+}
+.main .text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:40px;
+    color: rgb(158, 98, 19);
+    text-transform: capitalize;
+}
+.main .text p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top:20px;
+    color:rgb(228, 197, 156);
+    text-transform: capitalize;
+
+}
+.main .text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:20px;
+    margin-top: 15px;
+    color: rgb(158, 98, 19);
+    text-transform: capitalize; 
+}
+ button {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid  rgb(228, 197, 156);
+    background-color:rgb(158, 98, 19) ;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+} 
+button:hover{
+   
+    background-color: rgb(179, 121, 45) ;
+   }
+   
+button a {
+    text-decoration: none;
+    color: antiquewhite;
+
+   
+}
+.social {
+    margin-top: 15px;
+  
+}
+.social a {
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: rgb(179, 121, 45) ;
+    color:rgb(228, 197, 156) ;
+    border: 2px solid antiquewhite ;
+    padding: 3px;
+    border-radius: 50%;
+
+}
+.social a:hover {
+ color:  rgb(179, 121, 45) ;
+
+}
+
+/* End main*/
+/* End home*/
